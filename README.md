@@ -43,3 +43,7 @@ Building from source on MX Linux requires installing most of the KDE development
 ```apt-get install -y libbz2-dev libxslt-dev libxml2-dev shared-mime-info oxygen-icon-theme libgif-dev libvlc-dev libvlccore-dev doxygen gperf bzr libxapian-dev fontforge libgcrypt20-dev libattr1-dev network-manager-dev libgtk-3-dev xsltproc xserver-xorg-dev xserver-xorg-input-synaptics-dev libpwquality-dev modemmanager-dev libxcb-keysyms1-dev libepoxy-dev libpolkit-agent-1-dev libegl1-mesa-dev libxcb-xkb-dev libqt5x11extras5-dev libwww-perl libxml-parser-perl libjson-perl libboost-dev libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev libarchive-dev liblmdb-dev cmake git libkomparediff2-dev extra-cmake-modules "libkf5.*-dev" llvm libclang-dev```
 
 The libraries ```libnm-util-dev libnm-glib-dev``` are not available as of MX 23.2.
+
+use the command ```apt build-dep -y kdevelop```
+
+Installed package ```libkf5grantleetheme-plugins``` in addition to others.
