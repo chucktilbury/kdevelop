@@ -36,3 +36,10 @@ https://www.kdevelop.org/contribute-kdevelop
 - [Bug tracker](https://bugs.kde.org/buglist.cgi?bug_status=UNCONFIRMED&bug_status=CONFIRMED&bug_status=ASSIGNED&bug_status=REOPENED&list_id=1777266&product=kdevelop&product=kdevplatform&query_format=advanced)
 - [KDE GitLab instance (code review as well as hosting and other important collaboration tasks)](https://invent.kde.org/kdevelop/kdevelop/-/merge_requests)
 - [Phabricator (task tracker until this functionality is migrated to GitLab)](https://phabricator.kde.org/dashboard/view/8/?)
+
+## Chuck's notes
+Building from source on MX Linux requires installing most of the KDE development tools.
+
+```apt-get install -y libbz2-dev libxslt-dev libxml2-dev shared-mime-info oxygen-icon-theme libgif-dev libvlc-dev libvlccore-dev doxygen gperf bzr libxapian-dev fontforge libgcrypt20-dev libattr1-dev network-manager-dev libgtk-3-dev xsltproc xserver-xorg-dev xserver-xorg-input-synaptics-dev libpwquality-dev modemmanager-dev libxcb-keysyms1-dev libepoxy-dev libpolkit-agent-1-dev libegl1-mesa-dev libxcb-xkb-dev libqt5x11extras5-dev libwww-perl libxml-parser-perl libjson-perl libboost-dev libgstreamer-plugins-base1.0-dev libgstreamer1.0-dev libarchive-dev liblmdb-dev cmake git libkomparediff2-dev extra-cmake-modules "libkf5.*-dev" llvm libclang-dev```
+
+The libraries ```libnm-util-dev libnm-glib-dev``` are not available as of MX 23.2.
